@@ -5,11 +5,11 @@ from datetime import datetime
 # Configuración de la base de datos
 DB_HOST = "localhost"
 DB_USER = "root"
-DB_PASSWORD = " "
+DB_PASSWORD = "Pato2026"
 DB_NAME = "api_vue"
 
 # Ruta donde se guardará el backup
-BACKUP_DIR = "C:\Users\josss\Desktop\Back ups"
+BACKUP_DIR = "C:\Users\josss\Desktop\Backups"
 os.makedirs(BACKUP_DIR, exist_ok=True)  # Crear directorio si no existe
 
 # Nombre del archivo de backup
